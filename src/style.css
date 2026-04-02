@@ -36,14 +36,27 @@ body {
 .main > div {
     float: left;
 }
-.main h1 {
+h1 {
     font-size: 4rem;
     margin: 15px 0;
     font-weight: 900;
 }
-.main p {
+h2 {
+    font-size: 2.7rem;
+    margin: 15px 0;
+    font-weight: 900;
+}
+p {
     font-size: 1.2rem;
     color: #555555;
+}
+
+/* SECTION */
+.section {
+    margin-top: 50px;
+}
+.section > div {
+    float: left;
 }
 
 /* HEADER */
