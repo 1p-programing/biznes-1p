@@ -37,3 +37,30 @@ body {
     font-size: 1.2rem;
     color: #555555;
 }
+
+/* HEADER */
+.logo {
+	width: 55px;
+	height: 55px;
+}
+
+.nav > div {
+	float: left;
+}
+
+.nav ul {
+	display: flex;
+	list-style-type: none;
+	padding-left: 0px;
+	margin-top: 0px;
+	gap: 10px;
+}
+
+/* links */
+.nav a {
+	text-decoration: none;
+	color: black;
+}
+.nav a:hover {
+	text-decoration: underline;
+}
