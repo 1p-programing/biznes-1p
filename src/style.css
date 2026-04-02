@@ -87,6 +87,7 @@ p {
 }
 
 .welcome_image {
+	margin-left: 300px;
 	width: 400px;
 	height: 350px;
 }
@@ -97,7 +98,6 @@ p {
 	align-items: center;
 	margin-top: 20px;
 }
-
 
 .google, .google_hover {
 	width: 150px;
@@ -113,6 +113,14 @@ p {
 .kupcio {
 	width: 250px;
 	height: 100px;
+}
+
+.kupcio-promocja {
+	position: relative;
+	left: -23px;
+	top: -10px;
+	width: 90px;
+	height: 70px;
 }
 
 .uber {
