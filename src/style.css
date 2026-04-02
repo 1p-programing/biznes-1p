@@ -72,3 +72,48 @@ body {
 .nav li a:hover {
 	text-decoration: underline;
 }
+
+.welcome_image {
+	width: 400px;
+	height: 350px;
+}
+
+.sponsors {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 20px;
+}
+
+
+.google, .google_hover {
+	width: 150px;
+	height: 100px;
+}
+
+
+.github {
+	width: 250px;
+	height: 100px;
+}
+
+.kupcio {
+	width: 250px;
+	height: 100px;
+}
+
+.uber {
+	width: 150px;
+	height: 50px;
+}
+
+.spotify {
+	width: 270px;
+	height: 85px;
+}
+
+.microsoft {
+	clear: both;
+	width: 300px;
+	height: 66px;
+}
