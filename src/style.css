@@ -57,6 +57,7 @@ p {
 }
 .section > div {
     float: left;
+	width: 50%;
 }
 
 /* HEADER */
