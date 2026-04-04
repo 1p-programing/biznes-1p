@@ -63,6 +63,14 @@ p {
 }
 
 /* HEADER */
+.nav {
+	position: sticky;
+	top: 0;
+	z-index: 1000;
+	background-color: #ffffffdd;
+	padding-top: 5px;
+	height: 53px;
+}
 .logo {
 	width: 55px;
 	height: 55px;
@@ -210,6 +218,12 @@ p {
 }
 
 @media screen and (max-height: 738px) {
+	.nowaanim {
+		/*background-color: var(--primary-color);*/
+		animation-delay: 200ms !important;
+	}
+}
+@media screen and (max-width: 506px) {
 	.nowaanim {
 		/*background-color: var(--primary-color);*/
 		animation-delay: 200ms !important;
